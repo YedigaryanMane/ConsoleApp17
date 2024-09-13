@@ -147,9 +147,6 @@ namespace ConsoleApp17
                 Console.WriteLine(animals[i]);
             }
         }
-
-
-
         public static void AddPerson(string[] people, int id, string name, string surname, int age)
         {
             int emptyIndex = GetFirstEmptyIndex(people);
